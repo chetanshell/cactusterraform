@@ -1,8 +1,8 @@
 # cactusterraform
 
-# Infrastructure will be launched based on these terraform variables
+# Infrastructure is launched based on these terraform variables
 
-ecs_cluster="$cluster name"
+ecs_cluster="$cluster name",
 ecs_key_pair_name="$Keypairs"
 region = "$region-id"
 cactus_vpc = "$VPC name"
