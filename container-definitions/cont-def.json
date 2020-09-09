@@ -1,0 +1,21 @@
+[
+    {
+      "name": "pythonapp",
+      "image": "214263680292.dkr.ecr.us-east-2.amazonaws.com/pythonapp:latest",
+      "cpu": 10,
+      "memory": 256,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": { 
+          "awslogs-group" : "/ecs/cactus-container",
+          "awslogs-region": "us-east-2"
+        }
+      }
+    }
+]
