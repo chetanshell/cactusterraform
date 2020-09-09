@@ -1,6 +1,6 @@
 # cactusterraform
 
-#Infrastructure will be launched based on these terraform variables
+# Infrastructure will be launched based on these terraform variables
 
 ecs_cluster="$cluster name"
 ecs_key_pair_name="$Keypairs"
@@ -13,6 +13,7 @@ max_instance_size = "$max of instance"
 min_instance_size = "$min no of instance"
 desired_capacity = "$no of instance to be running"
 
-#ECR image is built from Codebuild
+# ECR image is built from Codebuild
+
 https://github.com/chetanshell/cactus-codebuild/tree/master
 
